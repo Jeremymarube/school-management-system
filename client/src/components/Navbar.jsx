@@ -52,9 +52,9 @@ const Navbar = () => {
       <Link to="/classes" style={linkStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         Classes
       </Link>
-      <Link to="/login" style={linkStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+       <Link to="/login" style={linkStyle} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         Login
-      </Link>
+      </Link> 
     </nav>
   );
 };
